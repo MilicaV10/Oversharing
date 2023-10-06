@@ -1,0 +1,242 @@
+header{
+
+    /* display: flex; */
+    min-height: 80px;
+    border-bottom: 1px solid rgba(17,18,28,.15);
+    justify-content: space-between;
+    background-color: #edf2f4;
+    padding: 5px 20px 5px 20px;
+
+}
+
+.box-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meni{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkovi{
+
+    display: flex;
+    align-items: center;
+}
+body{
+
+    margin: unset;
+    background-color: #beb8ab;
+    
+}
+
+.meni-font{
+    font-size: 21px;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    text-decoration: none;
+    margin: 10px 20px 10px 20px;
+    color: #242121;
+}
+
+.meni-font:hover{
+    font-size: 21px;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    text-decoration: none;
+    margin: 10px 20px 10px 20px;
+    color: #b31c45;
+}
+
+
+.slika-box{
+    
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+
+    width: 100%;
+    height: 100%;
+}
+.flex{
+    display: flex;
+}
+
+.slika-background{
+    background-image: url('../img/backgrounds-for-web-design-company-website_667368.png');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.height{
+
+    height: 1000px;
+}
+.wrap{
+
+    justify-content: center;
+    text-align: center;
+}
+
+.relative{
+
+    position: relative;
+}
+.flex{
+    display: flex;
+}
+.sirina-slike{
+    width: 100%;
+
+}
+
+.druga-sekcija{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.padding-top{
+    padding-top: 160px;
+
+}
+
+h1{
+
+    margin-top: 0px;
+    font-family: Georgia;
+    font-size: 80px;
+    margin-bottom: 32px;
+    color: #242121;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: #242121;
+
+}
+
+.dugme{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.dugme-stil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #242121;
+    width: 100%;
+    height: 42px;
+    max-width: 240px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #242121;
+    cursor: pointer;
+    font-weight: 600;
+}
+.dugme-stil:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #242121;
+    width: 100%;
+    height: 42px;
+    max-width: 240px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffff;
+    background-color: #242121;
+    cursor: pointer;
+}
+@media (max-width: 1000px){
+    .font-sizeH1{
+        font-size: 32px
+    }
+    .font-sizeP{
+        font-size: 18px;
+    }
+    .li-font-size{
+        font-size: 16px;
+    }
+    .marginLogin{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .hideMenuLinks{
+        display: none;
+    }
+
+}
+
+
+
+.overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #242121;
+    overflow-x: hidden;
+    transition: 0.5s;
+    
+}
+.overlay-content{
+    
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.burgerLinks-box{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffff;
+    display: block;
+    transition: 0.5s;
+}
+
+.burger{
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.displayBurger{
+    display: block;
+}
+
+@media only screen and (min-width: 1000px){
+
+    .hideBurger{
+        display: none;
+    }
+    
+}
+
+

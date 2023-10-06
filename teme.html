@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/teme.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <title>Themes</title>
+</head>
+<body>
+    <header>
+        <div class="box-header">
+            <div>
+                <div class="slika-box">
+                    <a href="index.html" class="flex">
+                        <img src="img/logo-01.png" alt="" class="logo">
+        
+                    </a>
+                    
+                </div>
+            </div>
+            
+            <div class="meni ">
+                <div class="linkovi hideMenuLinks">
+                    <a href="index.html" class="meni-font">Home</a>
+                    <a href="oNama.html" class="meni-font">About</a>
+                    <a href="teme.html" class="meni-font">Themes</a>
+                    <a href="login.html" class="meni-font">Login</a>
+                    
+                </div>
+
+                <div class=" displayBurger hideBurger">
+                    <span class="burger" onclick="openBurgerMenu()">&#9776;</span>
+                    <div id="nav" class="overlay">
+        
+                        <a href="javascript:void(0)"  onclick="closeBurgerMenu()">X</a>
+                        <div class="overlay-content burgerLinks-box">
+                            <a href="index.html" >Home</a>
+                            <a href="oNama.html" >About</a>
+                            <a href="teme.html" >Themes</a>
+                            <a href="login.html">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+            
+        </div>
+        
+    </header>
+
+    <div class="height">
+        <div class="slika-background druga-sekcija">
+        </div>
+    </div>
+    <div class="padding-top-bottom">
+        <div class="padding-DrugaSekcija">
+            <h1 class="font-sizeH1">Teme</h1>
+            <p class="font-sizeP">
+                Zdravo buduci citaoci! Ovo je newsletter 3 studentkinje 
+                Fona cija je ideja za ovim malim projektom nastala u sasvim obicnom razgovoru u obliznjem kaficu posle predavanja.
+                 U zelji da vam studetske dane ucinimo sto boljim ovde cemo vas upoznati sa aktuelnim temama o
+                kojima cemo pisati i koje se ticu svih pojedinosti studiranja na jednom od najtrazenijih fakulteta- Fakulteta organizacionih nauka u Beogradu.
+                Bilo da ste vec
+                student ili zelite da upisete bas ovaj fakultet. 
+                Bilo da zelite da saznate nesto vise o nekom specificnom aspektu studiranja ili 
+                o prilikama koje vam ovaj fakultet pruza, na pravom ste mestu.
+            </p>
+    
+            <p class="font-sizeP">
+                Prijavite se na nas newsletter i saznajte vise o ovim temama:
+            </p>
+            
+            <div id="list" >
+                <ul>
+                    <li class="li-font-size">Upis i studiranje na fonu</li>
+                    <li class="li-font-size">Putovanja i druzenje</li>
+                    <li class="li-font-size">Sta posle fona</li>
+                    <li class="li-font-size">Studentske organizacije</li>
+                    <li class="li-font-size">Strucna praksa</li>
+                
+                </ul>
+            </div>
+            <div class="button-position">
+                <button id="hide" class="space-between-buttons">Sakrij</button>
+                <button id="show">Prikazi</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
